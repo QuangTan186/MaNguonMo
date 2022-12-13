@@ -6,7 +6,7 @@ import json
 from NeraulNetwork.unit import *
 import torch
 import uvicorn
-
+from fastapi.middleware.cors import CORSMiddleware
 from NeraulNetwork.model import NeuralNet
 from nltk_unit import tokenize, bag_of_words
 
@@ -31,7 +31,16 @@ model.eval()
 bot_name = "Jack 5 cu"
 
 app = FastAPI()
-
+origins = [
+    "*"
+]
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 @app.post("/")
 def answer_question(question):
     sentence = tokenize(question)
