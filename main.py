@@ -12,9 +12,8 @@ from nltk_unit import tokenize, bag_of_words
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-with open('intents.json', 'r') as json_data:
+with open('intents.json', 'r', encoding='utf-8') as json_data:
     intents = json.load(json_data)
-
 FILE = "data.pth"
 data = torch.load(FILE)
 
@@ -29,7 +28,7 @@ model = NeuralNet(input_size, hidden_size, output_size)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "Sam"
+bot_name = "Jack 5 cu"
 
 app = FastAPI()
 
@@ -51,7 +50,7 @@ def answer_question(question):
             if tag == intent["tag"]:
                 return(f"{bot_name}: {random.choice(intent['responses'])}")
     else:
-        return (f"{bot_name}: I do not understand...")
+        return (f"{bot_name}: Xin lỗi, tôi không hiểu bạn nói gì...")
 
 @app.get("/train")
 def train():

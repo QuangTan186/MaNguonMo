@@ -7,7 +7,7 @@ from NeraulNetwork.model import NeuralNet
 from nltk_unit import tokenize, stem, bag_of_words
 from NeraulNetwork.unit import *
 
-with open('intents.json', 'r') as f:
+with open('intents.json', 'r',encoding='utf-8') as f:
     intents = json.load(f)
 
 all_words = []

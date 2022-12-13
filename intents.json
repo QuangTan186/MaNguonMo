@@ -1,7 +1,7 @@
 {
   "intents": [
     {
-      "tag": "greeting",
+      "tag": "Xin chào",
       "patterns": [
         "Hi",
         "Hey",
@@ -9,78 +9,117 @@
         "Is anyone there?",
         "Hello",
         "Good day",
-        "Nice to meet you"
+        "Nice to meet you",
+        "Chào bạn",
+        "Ê",
+        "Có ai ở đây không",
+        "Xin chào",
+        "2222222222222",
+        "Rất vui được gặp bạn",
+        "Bạn khỏe không",
+        "33333333"
       ],
       "responses": [
-        "Hi",
-        "Hey",
-        "How are you",
-        "Hello",
-        "Good day",
-        "Nice to meet you"
+        "Xin chào",
+        "Chào bạn, tôi có thể giúp gì cho bạn"
       ]
     },
     {
-      "tag": "goodbye",
-      "patterns": ["Bye", "See you later", "Goodbye"],
+      "tag": "Tạm biệt",
+      "patterns": ["tam biet", "hen gap lai", "chao tam biet","bye bye","good bye",
+        "tạm biệt",
+        "hẹn gặp lại", "chào tạm biệt"
+      ],
       "responses": [
-        "See you later, thanks for visiting",
-        "Have a nice day",
-        "Bye! Come back again soon."
+        "Hẹn gặp lại bạn lần sau, cảm ơn bạn đã ghé thăm",
+        "Một ngày tốt lành",
+        "Tạm biệt hãy trở lại sớm nhé"
       ]
     },
     {
-      "tag": "thanks",
-      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      "tag": "Cảm ơn",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!","Cam on ban",
+        "No that la huu ich","Cam on rat nhieu","Cam on","Dieu do that tot",
+        "Nó thật là hữu ích","Cảm ơn rất nhiều","Cảm ơn","Điều đó thật tốt"
+      ],
+      "responses": ["Hân hạnh được phục vụ","Đó là việc tôi phải làm","không có gì"]
     },
     {
-      "tag": "items",
+      "tag": "Món hàng",
       "patterns": [
         "Which items do you have?",
         "What kinds of items are there?",
-        "What do you sell?"
+        "What do you sell?",
+        "Ban ban nhung mon gi",
+        "Loai mat hang ma ban ban",
+        "O day ban co gi",
+        "Ở đây bạn có gì",
+        "Loại mặt hàng mà bạn bán",
+        "Bạn bán những món hàng gì"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "Chúng tôi có bán laptop và những linh kiện liên quan",
+        "Chúng tôi có laptop và những linh kiện liên quan"
       ]
     },
     {
-      "tag": "payments",
+      "tag": "Thanh toán",
       "patterns": [
         "Do you take credit cards?",
         "Do you accept Mastercard?",
         "Can I pay with Paypal?",
-        "Are you cash only?"
+        "Are you cash only?",
+        "Thanh toan bang the duoc khong",
+        "Co nhung loai thanh toan nao",
+        "Toi co the thanh toan bang tien mat khong",
+        "Toi co the thanh toan bang hinh thuc chuyen khoan khong",
+        "Thanh toan bang VnPay duoc khong",
+        "Có những loại thanh toán nào",
+        "Tôi có thể thanh toán bằng tiền mặt không",
+        "Tôi có thể thanh toán bằng hình thức chuyển khoản không",
+        "Thanh toán bằng VNPay được không",
+        "Thanh toán bằng thẻ thì sao"
       ],
       "responses": [
-        "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "Chúng tôi có hai hình thức thanh toán là thanh toán khi nhận hàng hoặc VNPay"
       ]
     },
     {
-      "tag": "delivery",
+      "tag": "Vận Chuyển",
       "patterns": [
         "How long does delivery take?",
         "How long does shipping take?",
-        "When do I get my delivery?"
+        "When do I get my delivery?",
+        "Van chuyen mat bao lau",
+        "Toi se nhan duoc hang trong bao nhieu ngay",
+        "khi nao toi co the lay hang",
+        "Hang ve khi nao",
+        "Hàng về khi nào",
+        "Khi nào tôi có thể lấy hàng",
+        "Tôi sẽ nhận được hàng trong bao lâu",
+        "Vận chuyển mất bao lâu"
+
       ],
       "responses": [
-        "Delivery takes 2-4 days",
-        "Shipping takes 2-4 days"
+        "Vận Chuyển mất khoảng 2-4 ngày",
+        "Mất khoảng 2-4 ngày để vận chuyển"
       ]
     },
     {
-      "tag": "funny",
+      "tag": "Vui Vẻ",
       "patterns": [
         "Tell me a joke!",
         "Tell me something funny!",
-        "Do you know a joke?"
+        "Do you know a joke?",
+        "Ke cho toi mot chuyen vui",
+        "Kể cho tôi nghe chuyện vui",
+        "Noi cho toi mot vai chuyen vui",
+        "Ban co biet cau chuyen hai nao khong",
+        "Nói cho tôi một vài câu chuyện vui",
+        "Bạn có biết câu chuyện hài nào không"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "Một con gà tây tán gẫu với con bò: Mình cực kì yêu thích leo lên ngọn của cái cây kia, nhưng lại không có đủ sức (gà tây thở dài). Con bò góp ý: “Vậy bạn thử ăn chất thải của mình coi sao? Chúng chứa rất nhiều dưỡng chất đấy!. "
       ]
     }
   ]
