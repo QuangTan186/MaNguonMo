@@ -28,7 +28,7 @@ model = NeuralNet(input_size, hidden_size, output_size)
 model.load_state_dict(model_state)
 model.eval()
 
-bot_name = "Jack 5 cu"
+bot_name = ""
 
 app = FastAPI()
 origins = [
@@ -54,7 +54,7 @@ def answer_question(question):
 
     probs = torch.softmax(output, dim=1)
     prob = probs[0][predicted.item()]
-    if prob.item() > 0.75:
+    if prob.item() > 0.85:
         for intent in intents['intents']:
             if tag == intent["tag"]:
                 return(f"{bot_name}: {random.choice(intent['responses'])}")

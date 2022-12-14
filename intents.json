@@ -12,11 +12,11 @@
         "Nice to meet you",
         "Chào bạn",
         "Ê",
-        "Có ai ở đây không",
+        "Có ai ở đây vậy",
         "Xin chào",
         "2222222222222",
         "Rất vui được gặp bạn",
-        "Bạn khỏe không",
+        "Bạn khỏe ",
         "33333333"
       ],
       "responses": [
@@ -28,7 +28,8 @@
       "tag": "Tạm biệt",
       "patterns": ["tam biet", "hen gap lai", "chao tam biet","bye bye","good bye",
         "tạm biệt",
-        "hẹn gặp lại", "chào tạm biệt"
+        "hẹn gặp lại", "chào tạm biệt",
+        "mình không mua nữa", "ko mua nữa", "ko mua", "bai bai", "gud bye"
       ],
       "responses": [
         "Hẹn gặp lại bạn lần sau, cảm ơn bạn đã ghé thăm",
@@ -148,7 +149,10 @@
         "Hiện tại có những ưu đãi nào",
         "Ưu đãi",
         "Khi nào thì các loại máy được giảm",
-        "Tôi có bằng giỏi có ưu đãi gì không"
+        "Tôi có bằng giỏi có ưu đãi gì không",
+        "Bên bạn có khuyến mãi gì không",
+        "Cửa hàng có loại khuyến mãi nào không",
+        "Hiện tại có sản phẩm nào được khuyến mãi không"
       ],
       "responses":[
         "Chúng tôi thường có giảm giá, ưu đãi vào các dịp lễ tết",
