@@ -121,6 +121,40 @@
       "responses": [
         "Một con gà tây tán gẫu với con bò: Mình cực kì yêu thích leo lên ngọn của cái cây kia, nhưng lại không có đủ sức (gà tây thở dài). Con bò góp ý: “Vậy bạn thử ăn chất thải của mình coi sao? Chúng chứa rất nhiều dưỡng chất đấy!. "
       ]
+    },
+    {
+      "tag": "Danh mục laptop",
+      "patterns":[
+        "Các loại laptop bạn có bán",
+        "Có những loại laptop nào đang được bày bán",
+        "Danh mục laptop",
+        "Ở đây có những loại laptop nào",
+        "Laptop category",
+        "Cac loai laptop ban co ban",
+        "Co nhung loai laptop nao dang duoc bay ban",
+        "Danh muc laptop",
+        "O day co nhung loai laptop nao"
+      ],
+      "responses":[
+        "Chúng tôi hiện đang có các loại laptop như: Acer, Asus, Lenovo, MSI, Gigabyte, HP"
+      ]
+    },
+    {
+      "tag": "Giảm giá",
+      "patterns":[
+        "Giảm giá",
+        "Discount",
+        "Hiện tại có đang giảm giá gì không",
+        "Hiện tại có những ưu đãi nào",
+        "Ưu đãi",
+        "Khi nào thì các loại máy được giảm",
+        "Tôi có bằng giỏi có ưu đãi gì không"
+      ],
+      "responses":[
+        "Chúng tôi thường có giảm giá, ưu đãi vào các dịp lễ tết",
+        "Hiện tại không có sản phẩm nào được giảm giá",
+        "Với thí sinh thi đại học trên 27 điểm thì được giảm giá 10% trên mọi mặt hàng"
+      ]
     }
   ]
 }
